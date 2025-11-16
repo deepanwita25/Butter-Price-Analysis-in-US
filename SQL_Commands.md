@@ -1,4 +1,4 @@
-"""SQL
+```SQL
   CREATE TABLE `nass`.`butter`(
 	`id` INT auto_increment PRIMARY KEY,
     `date` date NOT NULL,
@@ -21,4 +21,4 @@
 ENGINE = InnoDB
 DEFAULT char set = utf8mb4
 collate = utf8mb4_0900_ai_ci;
-"""
+```
