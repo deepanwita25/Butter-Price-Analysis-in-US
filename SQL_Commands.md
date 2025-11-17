@@ -44,4 +44,17 @@ collate = utf8mb4_0900_ai_ci;
 ENGINE = InnoDB
 DEFAULT char set = utf8mb4
 collate = utf8mb4_0900_ai_ci;
+
 ```
+
+```SQL
+	SHOW INDEX FROM `clal`.wholesale_price
+```
+```SQL
+	ALTER TABLE clal.wholesale_price
+	DROP INDEX unique_key;
+
+	ALTER TABLE clal.wholesale_price
+	ADD UNIQUE KEY unique_key (`date`, `year`, `month_no`, `product`, `country`, `source`, `unit`);
+```
+
