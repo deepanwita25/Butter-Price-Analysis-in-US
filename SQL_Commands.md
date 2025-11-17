@@ -57,4 +57,27 @@ collate = utf8mb4_0900_ai_ci;
 	ALTER TABLE clal.wholesale_price
 	ADD UNIQUE KEY unique_key (`date`, `year`, `month_no`, `product`, `country`, `source`, `unit`);
 ```
+```SQL
+	CREATE TABLE `clal`.`milk`(
+	`id` INT auto_increment primary key,
+    `year` INT NOT NULL,
+    `month` VARCHAR(50) NOT NULL,
+    `product_desc` VARCHAR(100) NOT NULL,
+    `unit` VARCHAR(50) NOT NULL,
+    `product` VARCHAR(100) NOT NULL,
+    `country` VARCHAR(100) NOT NULL,
+    `state_name` VARCHAR(100) NOT NULL,
+    `measure` VARCHAR(100) NOT NULL,
+    `source` VARCHAR(100) NOT NULL,
+    `value` DOUBLE NOT NULL,
+    `date` DATE NOT NULL,
+    `month_no` INT NOT NULL,
+    `updated_at` timestamp default current_timestamp
+		ON update current_timestamp,
+	CONSTRAINT `unique_key` UNIQUE(`year`, `month_no`, `date`, `unit`, `product`, `country`, `measure`)
+    )
+ENGINE = InnoDB
+DEFAULT char set = utf8mb4
+collate = utf8mb4_0900_ai_ci;
+```
 
