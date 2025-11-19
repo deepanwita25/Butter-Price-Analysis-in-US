@@ -30,3 +30,8 @@ There exists One to Many relationship between Dimension Tables and Fact Tables. 
 
 <img width="1037" height="658" alt="image" src="https://github.com/user-attachments/assets/13fef14b-f046-4356-9034-2ddca2d4999b" />
 
+Source Reference:
+USDA
+Vesper
+clal
+News Articles
