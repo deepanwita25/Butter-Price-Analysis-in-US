@@ -24,3 +24,9 @@ I modelled the data in Power BI by creating the following DIMENSION tables:
 - Dim_Product
 
 There exists One to Many relationship between Dimension Tables and Fact Tables. Please see the snapshot of the data modelling below for better understanding
+<img width="1135" height="737" alt="image" src="https://github.com/user-attachments/assets/03f782e6-14a2-485e-afb9-bc468d77bf1e" />
+
+<img width="1001" height="752" alt="image" src="https://github.com/user-attachments/assets/b2013f13-4420-4dd0-ae3a-fa445e13a819" />
+
+<img width="1037" height="658" alt="image" src="https://github.com/user-attachments/assets/13fef14b-f046-4356-9034-2ddca2d4999b" />
+
